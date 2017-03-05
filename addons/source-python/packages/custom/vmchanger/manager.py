@@ -2,6 +2,7 @@
 
 from engines.precache import Model
 from filters.weapons import WeaponClassIter
+from weapons.manager import weapon_manager
 
 ##
 
@@ -16,7 +17,7 @@ __all__ = (
 ##
 
 all_weapons = [weapon.name for weapon in WeaponClassIter()]
-all_projectiles = ['decoy_projectile', 'flashbang_projectile', 'hegrenade_projectile']
+all_projectiles = list(weapon_manager.projectiles)
 all_class_names = all_weapons + all_projectiles
 
 ##
