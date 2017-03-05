@@ -50,3 +50,5 @@ def unload():
 	del viewmodel_manager['weapon_flashbang']
 	del worldmodel_manager['flashbang_projectile']
 ```
+
+![Test Screenshot](http://images.akamai.steamusercontent.com/ugc/91600296843538906/868E24538700A26D3472961B027D71BA96BBFA09/)
