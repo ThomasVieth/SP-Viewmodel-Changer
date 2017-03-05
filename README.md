@@ -1,5 +1,7 @@
 # SP-Viewmodel-Changer
-Gives the develloper access to easily change weapon view models and world models.
+Gives the develloper access to easily change weapon view models and world models. Works with all weapons and grenade projectiles.
+
+TODO: Change the core to be individual to players, rather than a global change to the weapon entirely.
 
 Example of usage is below:
 
