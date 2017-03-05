@@ -44,10 +44,10 @@ class ModelManager(dict):
 		if class_name not in all_class_names:
 			raise ValueError('False weapon class name given for remodelling.')
 
-		if isinstance(viewmodel, str):
-			viewmodel = Model(viewmodel, download=True)
+		if isinstance(model, str):
+			viewmodel = Model(model, download=True)
 
-		super().__setitem__(class_name, viewmodel)
+		super().__setitem__(class_name, model)
 
 	def add_weapon_remodel(self, class_name, model):
 		'''Stores a new view model for a weapon.'''
