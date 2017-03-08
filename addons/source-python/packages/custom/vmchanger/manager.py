@@ -46,7 +46,7 @@ class ModelManager(dict):
 			raise ValueError('False weapon class name given for remodelling.')
 
 		if isinstance(model, str):
-			viewmodel = Model(model, download=True)
+			model = Model(model, download=True)
 
 		super().__setitem__(class_name, model)
 
